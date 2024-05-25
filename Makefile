@@ -1,7 +1,7 @@
 CC = gcc
-CFLAGS = -O2 -std=gnu2x -Wall -Wno-pointer-sign -Werror=vla -fsanitize=address -g -Og
+CFLAGS = -O2 -std=gnu2x -Wall -Wno-pointer-sign -Werror=vla -fsanitize=address
 LD = gcc
-LDFLAGS = -O2 -std=gnu2x -Wall -Wno-pointer-sign -Werror=vla -fsanitize=address
+LDFLAGS = -std=gnu2x -Wall -Wno-pointer-sign -Werror=vla -fsanitize=address
 LDLIBS = -lcurl
 
 all: smarthome
